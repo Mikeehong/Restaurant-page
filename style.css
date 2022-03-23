@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: url(background-img.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  list-style-type: none;
+  margin: 3rem;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+}
+
+header {
+  background-color: rgba(255, 228, 196, 0.534);
+}
+
+.intro {
+  padding: 5% 20%;
+}
+
+p {
+  font-size: 2rem;
+  text-align: center;
+}
